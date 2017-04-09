@@ -1,15 +1,34 @@
 body {
   font-family: "Montserrat";
-  font-size: 16px;
+}
+
+.navbar {
+  background-color: rgb(246,52,64);
+  width: auto;
+  height: 56px;
 }
 
 h1, h2, h3, h4 {
   font-weight: 700;
 }
 
+.navbar a {
+  color: white !important;
+}
+
 .navbar-brand {
   font-family: "Passion One";
   font-size: xx-large;
+}
+
+/* Backgrounds for each section of the page */
+
+.who-delivers {
+  background: url("images/main-hero.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+  height: 500px;
+  padding-top: 150px;
 }
 
 /* My standard vertical spacing classes */
